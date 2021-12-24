@@ -9,7 +9,11 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+<<<<<<< HEAD
     background-color: #bd1a1a;
+=======
+    background-color: #ced0d3;
+>>>>>>> cabecera
 }
 
 /* HEADER */
@@ -27,7 +31,7 @@ header {
 }
 
 .Logo {
-    margin: 0 50px;
+    margin: 0 5px;
 }
 
 .logoEPC img {
