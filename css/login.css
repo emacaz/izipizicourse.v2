@@ -9,7 +9,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    background-color: #2879af;
+    background-color: #ced0d3;
 }
 
 .container {
@@ -21,29 +21,29 @@ body {
 }
 
 .container-form {
-     background-color: #0a1e35;
-     border-radius: 10px;
+     background-color: #2879AF;
+     border-radius: 5px;
      padding: 30px;
      opacity: 0.9;
 }
 
 img {
+    display: block;
     width: 200px;
     margin: 15px auto;
 }
 
 h2 {
     text-align: center;
-    margin: 0 0 4rem 0;
+    margin: 0 0 2.5rem 0;
     color: #fff;
 }
 
 input {
-    cursor: pointer;
     display: block;
-    -webkit-appearance: none;
+    /* -webkit-appearance: none; */
     border-radius: 5px;
-    width: 300px;
+    width: 280px;
     height: 35px;
     margin-bottom: 20px;
     margin-left: auto;
@@ -52,7 +52,7 @@ input {
     font-size: 16px;
     outline: none;
     border: none;
-    color: #fff;
+    color: #000;
 }
 
 #checkId {
@@ -61,22 +61,27 @@ input {
     border-radius: 5px;
     display: inline;
     background-color: white;
-    color: #000;
 }
 
 .loginButton {
-    width: 320px;
+    cursor: pointer;
+    width: 300px;
     border-radius: 5px;
-    background-color: #048620;
+    background-color: #68DA6C;
+    color: #000;
     border: none;
     border-bottom: 4px solid #0b5a1c;
     margin: 20px auto;
+}
+.loginButton:hover {
+    background-color: #46f04b;
+    border-bottom: 4px solid #2cd431;
+    transition: .3s;
 }
 
 
 form label {
     color: #fff;
-    margin-left: 5px;
 }
 form a {
     color: #fff;
@@ -103,4 +108,29 @@ form a {
     background-color: #0a1e35;
     border: 1px solid white;
     margin: auto;
+}
+.accountCreate a:hover {
+    background-color: #2879AF;
+}
+
+
+
+
+
+@media (max-width:480px) {
+    body {
+        background-color: #2879AF;
+    }
+    .container-form {
+        background-color: unset;
+        padding: 0;
+    }
+
+    form a {
+        margin-left: 7px;
+    }
+
+    .accountCreate a {
+        width: 300px;
+    }
 }
