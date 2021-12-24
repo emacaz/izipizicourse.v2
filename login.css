@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #2879af;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container-form {
+     background-color: #0a1e35;
+     border-radius: 10px;
+     padding: 30px;
+     opacity: 0.9;
+}
+
+img {
+    width: 200px;
+    margin: 15px auto;
+}
+
+h2 {
+    text-align: center;
+    margin: 0 0 4rem 0;
+    color: #fff;
+}
+
+input {
+    cursor: pointer;
+    display: block;
+    -webkit-appearance: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 35px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+
+#checkId {
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    display: inline;
+    background-color: white;
+    color: #000;
+}
+
+.loginButton {
+    width: 320px;
+    border-radius: 5px;
+    background-color: #048620;
+    border: none;
+    border-bottom: 4px solid #0b5a1c;
+    margin: 20px auto;
+}
+
+
+form label {
+    color: #fff;
+    margin-left: 5px;
+}
+form a {
+    color: #fff;
+    margin-left: 20px;
+}
+
+
+.accountCreate {
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+}
+.accountCreate span {
+    margin: 15px 0;
+}
+.accountCreate a {
+    color: #fff;
+    text-decoration: none;
+    width: 320px;
+    padding: 10px 0;
+    border-radius: 5px;
+    background-color: #0a1e35;
+    border: 1px solid white;
+    margin: auto;
+}
