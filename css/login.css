@@ -9,7 +9,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    background-color: #ced0d3;
+    background-color: #2360bb;
+    /* background-color: #ced0d3; */
 }
 
 /* HEADER */
@@ -27,7 +28,7 @@ header {
 }
 
 .Logo {
-    margin: 0 5px;
+    margin: 0 50px;
 }
 
 .logoEPC img {
