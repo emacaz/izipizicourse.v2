@@ -64,6 +64,7 @@ input {
 }
 
 .loginButton {
+    -webkit-appearance: none;
     cursor: pointer;
     width: 300px;
     border-radius: 5px;
