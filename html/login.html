@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login | Iniciar sesión</title>
-    <link rel="stylesheet" href="../css/login.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <title>izipizicourse: Login</title>
+        <link rel="stylesheet" href="../css/login.css">
+        <link rel="icon" href="../images/epc-logo.ico" type="image/x-icon">
+    </head>
 <body>
 
     <header>        
@@ -27,8 +28,8 @@
             <h2>Iniciar sesión</h2>
             <!-- <img src="./images/izi-logo-for-footer.png" alt="izipizicourse logo"> -->
             <form action="">
-                <input type="text" placeholder="Tu email">
-                <input type="password" placeholder="Tu contraseña">
+                <input type="email" placeholder="Tu email" required>
+                <input type="password" placeholder="Tu contraseña" required>
                 <input type="submit" value="Inicia sesión" class="loginButton">
 
                 <input type="checkbox" id="checkId" class="check">
@@ -39,7 +40,7 @@
 
             <div class="accountCreate">
                 <span>¿Aún no tienes cuenta?</span>
-                <a href="#" class="registerButton">Regístrate</a>
+                <a href="../html/register.html" class="registerButton">Regístrate</a>
             </div>
         </div>
     </div>
